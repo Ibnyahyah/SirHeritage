@@ -1,26 +1,21 @@
 import React from 'react';
+import { Images } from './Image';
+import { GalleryImage } from './Image';
 
 const GalleryRoll1 =()=>{
     return(
         <div className="row py-3 d-flex justify-content-between">
-            <div className="col-sm-4">
-            <div className="gallery-image">
-                    <img src="/images/test8.jpg"/>
-                    <p className="text-center mt-2 mb-4">Agbada</p>
-                </div>
-            </div>
-            <div className="col-sm-4">
-            <div className="gallery-image">
-                    <img src="/images/test3.jpg"/>
-                    <p className="text-center mt-2  mb-4">So'ro</p>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="gallery-image">
-                    <img src="/images/test3.jpg"/>
-                    <p className="text-center mt-2  mb-4">Suit</p>
-                </div>
-            </div>
+                {Images.map((item, index) => {
+                    return(
+                    <div className="col-sm-4">
+                        <div className="gallery-image" key={index}>
+                        <img src={item.url} alt={item.alt} />
+                        <p className="text-center mt-2 mb-4">{item.paragraph}</p>
+                        </div>
+                        
+                     </div>
+                    )
+                })}
          </div>      
     )
 }
@@ -28,18 +23,16 @@ const GalleryRoll1 =()=>{
 const GalleryRoll2 =()=>{
     return(
         <div className="row py-3 d-flex justify-content-between">
-            <div className="col-sm-6">
-            <div className="gallery-image-2">
-                    <img src="/images/test3.jpg"/>
-                    <p className="text-center mt-2  mb-4">Trousers</p>
-                </div>
-            </div>
-            <div className="col-sm-6">
-            <div className="gallery-image-2">
-                    <img src="/images/test4.jpg"/>
-                    <p className="text-center mt-2  mb-4">Shirt</p>
-                </div>
-            </div>
+            {GalleryImage.map((item, index) => {
+                return(
+                    <div className="col-sm-6">
+                        <div className="gallery-image-2">
+                            <img src={item.url} alt={item.alt}/>
+                            <p className="text-center mt-2  mb-4">{item.title}</p>
+                        </div>
+                    </div>
+                )
+            } )}
          </div>      
     )
 }

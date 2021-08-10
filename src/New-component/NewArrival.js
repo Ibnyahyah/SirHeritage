@@ -1,58 +1,50 @@
 import React from 'react';
+import {NewTrending} from './Image';
+import {NewTrending2} from './Image';
 
 
 const HotBody = () =>{
     return(
         <div className="row py-3 d-flex justify-content-between">
-            <div className="col-sm-3">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                    <p className="text-center mt-2  mb-4">Kid's Cloth</p>
+               {NewTrending.map((item, index)=>{
+                   return(
+                <div className="col-sm-3">
+                    <ul id="autoWidth" className="cs-hidden">
+                        <li className={item.Cname}>
+                            <div className="gallery-box-2">
+                                <div className="arrival-image">
+                                    <img src={item.url} alt={item.alt}/>
+                                    <p className="text-center mt-2  mb-4">{item.paragraph}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div className="col-sm-3">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                     <p className="text-center mt-2  mb-4">Gobi Cap</p>
-                </div>
-            </div>
-            <div className="col-sm-3">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                     <p className="text-center mt-2  mb-4">Awolowo cap</p>
-                </div>
-            </div>
-            <div className="col-sm-3">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                     <p className="text-center mt-2  mb-4">Lastest jalab</p>
-                </div>
-            </div>
+                   )
+               })}
          </div>      
     )
 }
 
 const HotBody2 = () =>{
     return(
-        <div className="row py-3 d-flex justify-content-between">
-            <div className="col-sm-4">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                    <p className="text-center mt-2  mb-4">Dan-shiki</p>
+        <div className="gallery-row py-3">
+            {NewTrending2.map((item, index)=>{
+                   return(
+                <div className="col-sm-2">
+                    <ul id="autoWidth" className="cs-hidden">
+                        <li className={item.Cname}>
+                            <div className="gallery-box-2">
+                                <div className="arrival-image">
+                                    <img src={item.url} alt={item.alt}/>
+                                    <p className="text-center mt-2  mb-4">{item.paragraph}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                     <p className="text-center mt-2  mb-4">KhafThan</p>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="arrival-image">
-                    <img src="/images/test1.jpg"/>
-                     <p className="text-center mt-2  mb-4">Cufflinks</p>
-                </div>
-            </div>
+                   )
+               })}
          </div>      
     )
 }
@@ -62,8 +54,8 @@ const NewHot =()=>{
         <div style={{ background: '#fff', padding: '20px 0' }}>
         <div className="new-arrival container">
             <HotBody/>
-            <HotBody2/>
         </div>
+        <HotBody2/>
         </div>
     )
 }

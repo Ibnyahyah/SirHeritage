@@ -1,4 +1,6 @@
 import React from 'react';
+import NavBar from './Nav';
+import {HomeImg} from './Image';
 
 const HomeText = () =>{
     return (
@@ -16,34 +18,20 @@ const HomeText = () =>{
 
 const HomeImage = ()=>{
     return (
-        <div className="col-sm-6">
-            <div className="image">
-                <div className="row">
-                    <div className="col-6">
-                        <img src="/images/test5.jpg" alt="Agbada's image"/>
-                    </div>
-                    <div className="col-6">
-                        <img src="/images/test6.jpg" alt="Buba ati sokoto image"/>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-6">
-                        <img src="/images/test7.jpg" alt="Shirt's image"/>
-                    </div>
-                    <div className="col-6">
-                        <img src="/images/test5.jpg" alt="Trouser's image"/>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-6">
-                        <img src="/images/test6.jpg" alt="Suit's image"/>
-                    </div>
-                    <div className="col-6">
-                        <img src="/images/test7.jpg" alt="Cap's image"/>
-                    </div>
-                </div> 
-            </div>
-        </div>
+        
+        <div className="col-sm-6" >
+        <div className="image">
+            <div className="row">
+        {HomeImg.map((item, index)=>{
+            return(
+                        <div className="col-6 mb-2" key={index}>
+                            <img src={item.url} alt={item.alt}/>
+                        </div>
+            )
+        })}
+        </div> 
+    </div>
+</div>
     )
 }
 
@@ -53,6 +41,7 @@ const HomeSection = () => {
             <div className="row main-section-row">
                 <HomeText/>
                 <HomeImage/>
+                <NavBar/>
             </div>
         </div>
     )

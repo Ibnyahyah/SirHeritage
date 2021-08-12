@@ -1,34 +1,33 @@
 import React from 'react';
 import { Images } from './Image';
-import { GalleryImage } from './Image';
+import { PreViewImage } from './Image';
 
-const GalleryRoll1 =()=>{
+const PreViewRoll1 =()=>{
     return(
-        <div className=" gallery-row py-3">
+            <div className=" gallery-row py-3">
                 {Images.map((item, index) => {
                     return(
                     <div className="col-sm-2">
                         <ul id="autoWidth" className="cs-hidden">
                             <li className={item.Cname}>
-                            <div className="gallery-box">
-                        <div className="gallery-image" key={index}>
-                        <img src={item.url} alt={item.alt} />
-                        </div>
-                        </div>
-                        </li>
-                        </ul>
-                        
-                     </div>
+                                <div className="gallery-box">
+                                    <div className="gallery-image" key={index}>
+                                        <img src={item.url} alt={item.alt} />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>   
+                    </div>
                     )
                 })}
-         </div>      
+            </div>    
     )
 }
 
-const GalleryRoll2 =()=>{
+const PreViewRoll2 =()=>{
     return(
         <div className="row py-3 d-flex justify-content-between">
-            {GalleryImage.map((item, index) => {
+            {PreViewImage.map((item, index) => {
                 return(
                     <div className="col-sm-3">
                         <ul id="autoWidth" className="cs-hidden">
@@ -48,12 +47,12 @@ const GalleryRoll2 =()=>{
     )
 }
 
-const Gallery = () =>{
+const PreView = () =>{
     return(
-        <div className=" service-section"  id="gallery">
-            <GalleryRoll1/>
-            <GalleryRoll2/>
-        </div>
+            <div className="service-section"  id="gallery">
+                <PreViewRoll1/>
+                <PreViewRoll2/>
+            </div>
     )
 }
-export default Gallery;
+export default PreView;

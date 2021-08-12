@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MenuItem } from './MenuItem';
 
 
@@ -25,9 +26,10 @@ handleClick = () => {
                         {MenuItem.map((item, index) => {
                             return(
                                 <li className={item.cName} key={index}>
-                                    <a href={item.url}>
+                                    <Link to={item.url}>
                                         {item.title}
-                                    </a></li>
+                                    </Link>
+                                </li>
                             )
                         })}
                         

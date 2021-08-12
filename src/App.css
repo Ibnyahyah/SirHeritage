@@ -110,24 +110,6 @@ li{
   margin: auto;
   background-color: white;
 }
-/* .gallery-image img{
-  width:100%;
-  height: 320px;
-} */
-/* .gallery-image{
-  width: 430px;
-  height: 250px;
-  box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
-  border-radius: 10px;
-  margin: 0px 20px 20px 20px;
-  overflow: hidden;
-} */
-/* .gallery-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-} */
 .gallery-row {
   display:flex;
   flex-direction: row;
@@ -202,7 +184,7 @@ li{
 
 /* NEW ARRIVAL */
 .new-arrival{
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 
@@ -216,18 +198,42 @@ li{
   transition: 0.3s ease-in-out;
 }
 
+/* know us more */
+.KnowUs{
+  background-color: #fff;
+  color: #000;
+  border-top: 1px solid rgba(92, 115, 138, 0.2);
+  padding: 1rem 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line{
+  height: 1vh;
+  width: 150px;
+  margin:auto;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+}
+.KnowUs #header h1{
+  margin-top: 50px;
+ text-align: center;
+}
+.WhoWeAre-content{
+  width: 80%;
+}
+
 /* footer */
 
 footer{
   background-color: #000;
   padding: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: rgb(173, 170, 170);
 }
 #about p{
-  font-size: 10px;
+  font-size: 13px;
 }
 .footer-links{
   line-height: 40px;
@@ -261,7 +267,7 @@ footer .copywrite{
     transition: all 0.3s ease;
   }
   .nav-item.active{
-    background: rgba(60, 76, 92, 0.7);
+    background: rgba(92, 115, 138, 0.8);
     left:0;
     opacity: 1;
     transition: all 0.3s ease;
@@ -275,7 +281,8 @@ footer .copywrite{
     border-bottom: 1px solid #fff;
   }
   .nav-links:hover{
-    background-color: rgb(80, 10, 10);
+    background-color: rgba(92, 115, 138, 0.2);
+    color: white;
     border-radius: 0;
   }
   header{
@@ -306,22 +313,31 @@ footer .copywrite{
   .main-section-home .main-section-row{
     padding: 0 0.5rem;
   }
-  .main-section-home h1, .main-section-home p{
-    color: #000;
+  .main-section-home h1, .main-section-home p, .main-section-home h6{
+    color: rgb(255, 254, 254);
     font-weight: 800;
   }
-  /* .gallery-image .gallery-image-2{
-    width: 90%;
-  }
-  .arrival-image img, .gallery-image-2 img, .gallery-image{
-    padding-bottom: 10px;
-  } */
   .gallery-box-2{
     flex-direction: row;
     width: 90%;
     border: 1px solid rgba(0,0,0,0.2);
-}
-.gallery-box-2 p{
-  padding: 0 10px;
-}
+  }
+  .gallery-box-2 p{
+    padding: 0 10px;
+  }
+  .KnowUs h1{
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 10px;
+  }
+  .WhoWeAre-content{
+    width: 80%;
+    margin: auto;
+  }
+  .who-we-are{
+    text-align: center;
+  }
+  footer{
+    font-size: 12px;
+  }
 }

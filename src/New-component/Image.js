@@ -2,164 +2,202 @@ export const Images = [
     {
     title: 'gallery',
     url: '/images/Shirt.jpg',
-    alt: 'Agbada'
+    alt: 'Shirt'
     },
     {
     title: 'gallery',
     url: '/images/Modernwear.jpg',
-    alt: 'Agbada'
+    alt: 'Modern wear suit'
     },
     {
     title: 'gallery',
     url: '/images/Native.jpg',
-    alt: 'Agbada'
+    alt: 'Ibile soro'
     },
     {
     title: 'gallery',
-    url: '/images/Native2.jpg',
-    alt: 'Agbada'
+    url: '/images/jalabia.jpg',
+    alt: 'White jalab with little touch design'
     },
     {
     title: 'gallery',
-    url: '/images/Native9.jpg',
-    alt: 'Agbada'
+    url: '/images/modern-eshiki.jpg',
+    alt: 'modern Esiki ibile'
     },
     {
     title: 'gallery',
-    url: '/images/Native4.jpg',
-    alt: 'Agbada'
+    url: '/images/short-shirt.jpg',
+    alt: 'Short with shirt'
     }
     
 ]
 
-export const GalleryImage = [
+export const PreViewImage = [
     {
         title: 'gallery',
-        url: '/images/Native6.jpg',
-        paragraph : 'Trouser',
-        alt: 'Trouser'
+        url: '/images/PLain-suit.jpg',
+        paragraph : "White Suit",
+        alt: 'Plain white Suit'
         },
         {
         title: 'gallery',
-        url: '/images/Native9.jpg',
-        paragraph : 'Shirt',
-        alt: 'Shirt'
+        url: '/images/simple-top.jpg',
+        paragraph : 'Simple Soro-top',
+        alt: 'simple top with attractive work'
         },
         {
         title: 'gallery',
-        url: '/images/Native7.jpg',
-        paragraph : 'Trouser',
-        alt: 'Trouser'
+        url: '/images/Ladies-dress.jpg', 
+        paragraph : 'Ladies wear',
+        alt: 'simple ladies wear '
         },
         {
         title: 'gallery',
         url: '/images/Native8.jpg',
-        paragraph : 'Trouser',
+        paragraph : "Native's Cap",
         alt: 'Trouser'
         }
 
 ]
 
-export const NewTrending =[
+export const  TrendingWear =[
     {
-        title: 'Trending',
-        url: '/images/Shirt.jpg',
-        paragraph : 'Kid"s Wear',
-        alt: 'Kid"s Wear'
-        },
-        {
-        title: 'Trending',
-        url: '/images/Shirt.jpg',
-        paragraph : 'Uni-Sex Jalab',
-        alt: 'Uni-Sex Jalab'
-        },
-        {
-        title: 'Trending',
-        url: '/images/Shirt.jpg',
-        paragraph : 'Short Agbada',
-        alt: 'Short Agbada'
-        },
-        {
-        title: 'Trending',
-        url: '/images/Shirt.jpg',
-        paragraph : 'Leather Suit',
-        alt: 'Leather Suit'
-        }
-]
-export const NewTrending2 =[
-    {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Kaftan',
         alt: 'Kid"s Wear'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Aso oke',
         alt: 'Uni-Sex Jalab'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Fashion Button"s',
         alt: 'Short Agbada'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'ufflink"s',
         alt: 'Leather Suit'
         },
         {
-        title: 'Trending',
         url:'/images/Shirt.jpg',
         paragraph : 'Aso oke',
         alt: 'Uni-Sex Jalab'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Fashion Button"s',
         alt: 'Short Agbada'
+        },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Kid"s Wear',
+        alt: 'Kid"s Wear'
+        },
+        {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Uni-Sex Jalab',
+        alt: 'Uni-Sex Jalab'
         }
 ]
 
-export const HomeImg = [
+export const NativeWear = [
     {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Kaftan',
         alt: 'Kid"s Wear'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Aso oke',
         alt: 'Uni-Sex Jalab'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Fashion Button"s',
         alt: 'Short Agbada'
         },
     {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Kaftan',
         alt: 'Kid"s Wear'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Aso oke',
         alt: 'Uni-Sex Jalab'
         },
         {
-        title: 'Trending',
         url: '/images/Shirt.jpg',
         paragraph : 'Fashion Button"s',
         alt: 'Short Agbada'
         },
+]
+
+export const WesternWear =[
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Kid"s Wear',
+        alt: 'Kid"s Wear'
+        },
+        {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Uni-Sex Jalab',
+        alt: 'Uni-Sex Jalab'
+        },
+        {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Short Agbada',
+        alt: 'Short Agbada'
+        },
+        {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Leather Suit',
+        alt: 'Leather Suit'
+        }
+]
+
+export const ShopWear =[
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Kid"s Wear',
+        alt: 'Kid"s Wear'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Uni-Sex Jalab',
+        alt: 'Uni-Sex Jalab'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Short Agbada',
+        alt: 'Short Agbada'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Leather Suit',
+        alt: 'Leather Suit'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Kid"s Wear',
+        alt: 'Kid"s Wear'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Uni-Sex Jalab',
+        alt: 'Uni-Sex Jalab'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Short Agbada',
+        alt: 'Short Agbada'
+    },
+    {
+        url: '/images/Shirt.jpg',
+        paragraph : 'Leather Suit',
+        alt: 'Leather Suit'
+    }
 ]

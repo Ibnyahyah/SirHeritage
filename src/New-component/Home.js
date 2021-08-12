@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from './Nav';
-import {HomeImg} from './Image';
 
 const HomeText = () =>{
     return (
@@ -16,31 +15,11 @@ const HomeText = () =>{
     )
 }
 
-const HomeImage = ()=>{
-    return (
-        
-        <div className="col-sm-6" >
-        <div className="image">
-            <div className="row">
-        {HomeImg.map((item, index)=>{
-            return(
-                        <div className="col-6 mb-2" key={index}>
-                            <img src={item.url} alt={item.alt}/>
-                        </div>
-            )
-        })}
-        </div> 
-    </div>
-</div>
-    )
-}
-
 const HomeSection = () => {
     return(
         <div className="container-fluid pb-5 main-section-home">
             <div className="row main-section-row">
                 <HomeText/>
-                <HomeImage/>
                 <NavBar/>
             </div>
         </div>

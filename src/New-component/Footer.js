@@ -29,9 +29,9 @@ const Contact =()=>{
                 <i class="fab fa-whatsapp"> </i>{'  '}
                      Whatsapp Us On: +2348168867603</a>
                 </li>
-                <li><a href={'mailto:yahayaabdulrashyd@gmail.com'}>
+                <li><a href={'mailto:yahayaabdulrashydokeho1@gmail.com'}>
                 <i class="fas fa-envelope-open-text"> </i>{'  '}
-                Yahayaabdulrashyd@gmail.com</a>
+                SirHeritage@gmail.com</a>
                 </li>
                 <li><a href={'telto:+2348168867603'}>
                     <i class="fas fa-phone"></i>{'  '}

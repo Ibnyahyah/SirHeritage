@@ -29,9 +29,9 @@ const PreViewRoll2 =()=>{
         <div className="row py-3 d-flex justify-content-between">
             {PreViewImage.map((item, index) => {
                 return(
-                    <div className="col-sm-3">
-                        <ul id="autoWidth" className="cs-hidden">
-                            <li className={item.Cname}>
+                    <div className="col-sm-3" >
+                        <ul>
+                            <li className={item.Cname} style={{marign:'auto'}}>
                                 <div className="gallery-box-2">
                                     <div className="gallery-image-2" key={index}>
                                         <img src={item.url} alt={item.alt} />

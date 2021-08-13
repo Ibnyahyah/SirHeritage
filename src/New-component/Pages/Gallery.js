@@ -1,19 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import { TrendingWear } from '../Image';
 
 
-const GalleryHeader = () =>{
+export const GalleryHeader = () =>{
     return(
-        <div style={{display: 'flex', justifyContent: 'space-between',
-             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-             backgroundColor: '#000', color: '#fff', padding: '20px' }}>
-            <div className='Gallery-header'>
-                <h1>Gallery</h1>
-                <Link to="/" style={linkStyle}>Home</Link> | <Link to="/shop" style={linkStyle}>Shop</Link>
-            </div>
-            <h1>SirHeritage</h1>
-        </div>
+        <div style={{
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            backgroundColor: '#000', color: '#fff', padding: '20px', textAlign:'center', marginTop: '100px' }}>
+               <h1>Gallery</h1>
+       </div>
     )
 }
 
@@ -23,7 +19,7 @@ const GalleryImg =()=>{
             {TrendingWear.map((item, index) => {
                 return(
                     <div className="col-sm-3">
-                        <ul id="autoWidth" className="cs-hidden">
+                        <ul>
                             <li className={item.Cname}>
                                 <div className="gallery-box-2">
                                     <div className="gallery-image-2" key={index}>
@@ -39,18 +35,18 @@ const GalleryImg =()=>{
          </div>      
     )
 }
-const linkStyle = {
-    color: '#fff'
-}
+
+
+
+
 
 const Gallery =()=>{
     return(
-        <React.Fragment>
-            <GalleryHeader/>
             <div className="new-arrival">
-                <GalleryImg/>
+            <GalleryHeader/>
+            <GalleryImg/>
             </div>
-        </React.Fragment>
+       
     )
 }
 

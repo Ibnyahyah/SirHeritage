@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {MenuItem} from './MenuItem';
 
 const About=()=>{
@@ -50,11 +51,10 @@ const UsefulLinks = ()=>{
                 {MenuItem.map((item, index) => {
                     return(
                         <li>
-                            <a href={item.url} className={item.className}>
+                            <Link to={item.url} className={item.className}>
                                 {item.title}
-                            </a>
+                            </Link>
                         </li>
-               
                     )
                 })}
                  </div>

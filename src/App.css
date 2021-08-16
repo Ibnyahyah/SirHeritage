@@ -15,7 +15,7 @@ a{
 }
 nav{
   width: 100%;
-  display:inline-flex;
+  display:flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
@@ -27,14 +27,9 @@ nav{
 }
 header{
   padding-left: 4rem;
+  margin-top: -25px;
   color: rgb(80, 10, 10);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-header span{
-  color: rgb(230, 197, 10);
-}
-header h4{
-  font-size:28px;
 }
 .nav-item{
   display: flex;
@@ -52,7 +47,7 @@ li{
   list-style: none;
 }
 .nav-item>li>a{
-  color: #000;  
+  color: #fff;  
   font-weight: 500;
 }
 .nav-item>li>a:hover{
@@ -244,8 +239,7 @@ footer{
   color: rgb(173, 170, 170);
 }
 .footer-links li .links:hover{
-  transition: 0.5s ease-in-out;
-  color:rgb(80, 10, 10);
+  color:orange;
   padding: 5px 10px;
 }
 footer .copywrite{
@@ -275,8 +269,12 @@ footer .copywrite{
     left:0;
     opacity: 1;
     transition: all 0.3s ease;
-    height: 70vh;
+    height: 75vh;
     z-index: 1;
+  }
+  .nav-item>li>a{
+    color: #000;  
+    font-weight: 500;
   }
   .nav-links{
     text-align: center;
@@ -293,6 +291,7 @@ footer .copywrite{
     top:0;
     left: 0;
     transform: translate(-25%, 80%);
+    margin-top: -80px;
   }
   .menu-icon{
     display: block;

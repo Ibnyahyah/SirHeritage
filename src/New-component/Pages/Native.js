@@ -1,7 +1,28 @@
 import React from 'react';
-import GalleryHeader from './Gallery'
+import { Link } from 'react-router-dom';
 import { NativesWear } from '../Image';
 
+
+const NativeHeader = () =>{
+    return(
+        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
+            <div>
+                <Link to="/">
+                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
+                </Link>
+        
+               <h1>Native Wears</h1>
+            </div>
+            <div>
+                <Link to="/" style={linkStyle}>Home </Link>||<Link to="/gallery" style={linkStyle}> Back</Link>
+            </div>
+       </div>
+    )
+}
+const  linkStyle ={
+    color: '#000'
+}
 const NativeWear = ()=>{
     return(
         <div className="row py-3 d-flex justify-content-between">
@@ -14,7 +35,6 @@ const NativeWear = ()=>{
                                     <div className="gallery-image-2" key={index}>
                                         <img src={item.url} alt={item.alt} />
                                     </div>
-                                        <p className="text-center mt-2 mb-4">{item.paragraph}</p>
                                 </div>
                             </li>
                         </ul>
@@ -27,10 +47,12 @@ const NativeWear = ()=>{
 export default class Native extends React.Component{
     render(){
         return(
-            <div className="new-arrival">
-            <GalleryHeader/>
-            <NativeWear/>
-            </div>
+            <React.Fragment>
+                <NativeHeader/>
+                <div className="new-arrival">
+                    <NativeWear/>
+                </div>
+            </React.Fragment>
         )
     }
 }

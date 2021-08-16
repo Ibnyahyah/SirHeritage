@@ -41,21 +41,21 @@ export const PreViewImage = [
         },
         {
         title: 'gallery',
-        url: '/images/preview/simple-top.jpg',
-        paragraph : 'Simple Soro-top',
-        alt: 'simple top with attractive work'
+        url: '/images/preview/AgbadaShop.jpg',
+        paragraph : 'Agbada',
+        alt: 'Agbada with attractive work'
         },
         {
         title: 'gallery',
-        url: '/images/preview/Ladies-dress.jpg', 
-        paragraph : 'Ladies wear',
-        alt: 'simple ladies wear '
+        url: '/images/preview/Natify.jpg', 
+        paragraph : "So'ro",
+        alt: "Simple so'ro "
         },
         {
         title: 'gallery',
         url: '/images/preview/Native8.jpg',
         paragraph : "Native's Cap",
-        alt: 'Trouser'
+        alt: 'Caps'
         }
 
 ]
@@ -63,108 +63,88 @@ export const PreViewImage = [
 export const  TrendingWear =[
     {
         url: '/images/gallery/Native9.jpg',
-        paragraph : 'Short Kaftan',
         alt: 'Short Kaftan'
         },
         {
         url: '/images/gallery/Native2.jpg',
-        paragraph : 'Mixture wear',
         alt: 'Mixture wear'
         },
         {
-        url: '/images/simple-jalabia-2.jpg',
-        paragraph : 'White Jalab',
+        url: '/images/gallery/simple-jalabia-2.jpg',
         alt: 'White Jalab'
         },
         {
-        url: '/images/gallery/agbada.jpg',
-        paragraph : 'Agbada',
+        url: '/images/gallery/AgbadaShop2.jpg',
         alt: 'Agbada'
         },
         {
-        url:'/images/shop/simple-wear.jpg',
-        paragraph : 'Couple wear',
+        url:'/images/gallery/modern-soro-2.jpg',
         alt: 'Couple wear'
         },
         {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Fashion Button"s',
+        url: '/images/gallery/ShirtShop2.jpg',
         alt: 'Short Agbada'
         },
     {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Kid"s Wear',
+        url: '/images/gallery/JalabShop.jpg',
         alt: 'Kid"s Wear'
         },
         {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Uni-Sex Jalab',
+        url: '/images/gallery/MensShirt.jpg',
         alt: 'Uni-Sex Jalab'
         }
 ]
 
 export const NativesWear = [
     {
-        url: '/images/gallery/modern-soro-5.jpg',
-        paragraph : 'Kaftan',
-        alt: 'Kid"s Wear'
+        url: '/images/gallery/AgbadaShop3.jpg',
+        alt: 'Agbada Wear'
         },
         {
         url: '/images/gallery/Native6.jpg',
-        paragraph : 'Aso oke',
-        alt: 'Uni-Sex Jalab'
+        alt: 'Native top and trouser'
         },
         {
         url: '/images/gallery/Native7.jpg',
-        paragraph : 'Fashion Button"s',
         alt: 'Short Agbada'
         },
     {
         url: '/images/preview/modern-eshiki.jpg',
-        paragraph : 'Eshiki',
-        alt: 'Kid"s Wear'
+        alt: 'Esiki Wear'
         },
         {
-        url: '/images/gallery/plain-soro-6.jpg',
-        paragraph : 'Plain soro',
-        alt: 'plain soro'
+        url: '/images/gallery/NativeShop2.jpg',
+        alt: 'Native top and trouser'
         },
         {
-        url: '/images/gallery/modern-soro-9.jpg',
-        paragraph : 'Fashion Button"s',
-        alt: 'Short Agbada'
+        url: '/images/gallery/mordern-soro-9.jpg',
+        alt: 'Native top and trouser '
         },
         {
-        url: '/images/preview/Native8.jpg',
-        paragraph : 'Fashion Button"s',
-        alt: 'Short Agbada'
+        url: '/images/preview/Cap.jpg',
+        alt: 'Cap'
         },
         {
-        url: '/images/preview/Native.jpg',
-        paragraph : 'Fashion Button"s',
-        alt: 'Short Agbada'
+        url: '/images/gallery/nativeShop.jpg',
+        alt: 'Nativew top and trouser'
         },
 ]
 
 export const WesternsWear =[
     {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Kid"s Wear',
+        url: '/images/gallery/WhiteShirt.jpg',
         alt: 'Kid"s Wear'
         },
         {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Uni-Sex Jalab',
+        url: '/images/gallery/simple-jalabia-2.jpg',
         alt: 'Uni-Sex Jalab'
         },
         {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Short Agbada',
-        alt: 'Short Agbada'
+        url: '/images/gallery/SuitShop.jpg',
+        alt: 'Simple suit'
         },
         {
-        url: '/images/Shirt.jpg',
-        paragraph : 'Leather Suit',
+        url: '/images/gallery/ShirtShop2.jpg',
         alt: 'Leather Suit'
         }
 ]
@@ -172,7 +152,6 @@ export const WesternsWear =[
 export const ShopWear =[
     {
         url: '/images/shop/modern-soro.jpg',
-        paragraph : 'Modern Soro Wear',
         alt: 'modern soro Wear',
         buy : 'Buy Now',
         wUrl: '#',
@@ -180,7 +159,6 @@ export const ShopWear =[
     },
     {
         url: '/images/shop/modern-soro-3.jpg',
-        paragraph : 'New native style',
         alt: 'New native style',
         buy : 'Buy Now',
         wUrl: '#',
@@ -188,15 +166,13 @@ export const ShopWear =[
     },
     {
         url: '/images/shop/jalabia-3.jpg',
-        paragraph : 'Black jalab',
         alt: 'black jalab',
         buy : 'Buy Now',
         wUrl: '#',
         price: '#10000'
     },
     {
-        url: '/images/shop/Slim-fit-shirt-trouser.jpg',
-        paragraph : 'Fitted shirt and Trouser',
+        url: '/images/shop/nativeShop.jpg',
         alt: 'Fitted shirt and Trouser',
         buy : 'Buy Now',
         wUrl: '#',
@@ -204,7 +180,6 @@ export const ShopWear =[
     },
     {
         url: '/images/shop/Native4.jpg',
-        paragraph : 'Nice looking cloth with cap',
         alt: 'Nice looking cloth with cap',
         buy : 'Buy Now',
         wUrl: '#',
@@ -212,26 +187,23 @@ export const ShopWear =[
     },
     {
         url: '/images/shop/modern-soro-8.jpg',
-        paragraph : 'Black touched native with hat',
         alt: 'Black touched native with hat',
         buy : 'Buy Now',
         wUrl: '#',
         price: '#10000'
     },
     {
-        url: '/images/shop/modern-soro-4.jpg',
-        paragraph : 'Two color mixture',
-        alt: 'Two color mixture',
+        url: '/images/shop/MensSuit.jpg',
+        alt: 'Mens Suit',
         buy : 'Buy Now',
         wUrl: '#',
-        price: '#10000'
+        price: '#30000'
     },
     {
-        url: '/images/shop/modern-soro-7.jpg',
-        paragraph : 'Modern native',
+        url: '/images/shop/AgbadaShop.jpg',
         alt: 'Modern native',
         buy : 'Buy Now',
         wUrl: '#',
-        price: '#10000'
+        price: '#30000'
     }
 ]

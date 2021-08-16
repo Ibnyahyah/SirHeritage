@@ -1,14 +1,28 @@
 import React from 'react';
-import { ShopWear } from '../Image'
+import { Link } from 'react-router-dom';
+import { ShopWear } from '../Image';
 
-const ShopHeader=()=>{
+const ShopHeader = () =>{
     return(
-        <div style={{
-             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-             backgroundColor: '#000', color: '#fff', padding: '20px', textAlign:'center', marginTop: '100px' }}>
-                <h1>Shop</h1>
-        </div>
+        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
+            <div>
+                <Link to="/">
+                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
+                </Link>
+                <div style={{display: 'flex', justifyContents: 'space-around', alignItems: 'center'}}>
+                    <h1>Shop</h1>
+                    <img src="./logo192.png" alt="heritage shop" width="80" height="80"/>
+                </div>
+            </div>
+         <div>
+                <Link to="/" style={linkStyle}>Home </Link>||<Link to="/" style={linkStyle}> Help</Link>
+            </div>
+       </div>
     )
+}
+const  linkStyle ={
+    color: '#000'
 }
 
 const ShopImage =()=>{
@@ -23,7 +37,7 @@ const ShopImage =()=>{
                                     <div className="gallery-image-2" key={index}>
                                         <img src={item.url} alt={item.alt} />
                                     </div>
-                                        <p className="text-center mt-2 mb-4">{item.paragraph}</p>
+                                        <p className="text-center mt-2 mb-4">{item.price}</p>
                                         <a href={item.wUrl} className="btn btn-primary">{item.buy}</a>
                                 </div>
                             </li>

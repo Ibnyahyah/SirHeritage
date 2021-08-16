@@ -1,6 +1,26 @@
 import React from 'react';
-import GalleryHeader from './Gallery'
+import { Link } from 'react-router-dom';
 import { WesternsWear } from '../Image';
+
+const WesternHeader = () =>{
+    return(
+        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
+            <div>
+                <Link to="/">
+                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
+                </Link>
+               <h1>Western Wears</h1>
+            </div>
+            <div>
+                <Link to="/" style={linkStyle}>Home </Link>||<Link to="/gallery" style={linkStyle}> Back</Link>
+            </div>
+       </div>
+    )
+}
+const  linkStyle ={
+    color: '#fff'
+}
 
 const WesternWear = ()=>{
     return(
@@ -27,10 +47,12 @@ const WesternWear = ()=>{
 export default class Western extends React.Component{
     render(){
         return(
-            <div className="new-arrival">
-            <GalleryHeader/>
-            <WesternWear/>
-            </div>
+            <React.Fragment>
+                <WesternHeader/>
+                <div className="new-arrival">
+                    <WesternWear/>
+                </div>
+            </React.Fragment>
         )
     }
 }

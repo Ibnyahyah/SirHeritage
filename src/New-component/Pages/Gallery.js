@@ -1,16 +1,27 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { TrendingWear } from '../Image';
 
 
-export const GalleryHeader = () =>{
+const GalleryHeader = () =>{
     return(
-        <div style={{
-            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-            backgroundColor: '#000', color: '#fff', padding: '20px', textAlign:'center', marginTop: '100px' }}>
+        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
+            <div>
+                <Link to="/">
+                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
+                </Link>
                <h1>Gallery</h1>
+         </div>
+         <div>
+                <Link to="/" style={linkStyle}>Home </Link>|<Link to="native-wear" style={linkStyle}> Natives </Link>
+                |<Link to="western-wear" style={linkStyle}> English </Link>|<Link to="https://www.wa.me/" style={linkStyle}> ChatUs</Link>
+            </div>
        </div>
     )
+}
+const  linkStyle ={
+    color: '#000'
 }
 
 const GalleryImg =()=>{
@@ -42,10 +53,12 @@ const GalleryImg =()=>{
 
 const Gallery =()=>{
     return(
+        <React.Fragment>
+                <GalleryHeader/>
             <div className="new-arrival">
-            <GalleryHeader/>
-            <GalleryImg/>
+                <GalleryImg/>
             </div>
+        </React.Fragment>
        
     )
 }

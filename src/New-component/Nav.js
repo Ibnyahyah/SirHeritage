@@ -16,7 +16,7 @@ handleClick = () => {
         return(
                 <nav>
                     <header>
-                        <h4>Sir<span>Heritage</span></h4>
+                        <img src="./logo5.png" alt="logo" width="100" height="100"/>
                     </header>
                     <div className="menu-icon" onClick={this.handleClick}>
                             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

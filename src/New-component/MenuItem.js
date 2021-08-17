@@ -22,11 +22,5 @@ export const MenuItem = [
          url: '/about',
          cName: 'nav-links',
          className: 'links'
-    },
-    {
-         title: 'Contact us',
-         url: '/contact',
-         cName: 'nav-links',
-         className: 'links',
     }
 ]

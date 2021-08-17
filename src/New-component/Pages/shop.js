@@ -10,10 +10,8 @@ const ShopHeader = () =>{
                 <Link to="/">
                     <img src="./logo5.png" alt="logo" width="100" height="100"/>
                 </Link>
-                <div style={{display: 'flex', justifyContents: 'space-around', alignItems: 'center'}}>
+                <hr/>
                     <h1>Shop</h1>
-                    <img src="./logo192.png" alt="heritage shop" width="80" height="80"/>
-                </div>
             </div>
          <div>
                 <Link to="/" style={linkStyle}>Home </Link>||<Link to="/" style={linkStyle}> Help</Link>

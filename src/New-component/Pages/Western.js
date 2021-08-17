@@ -10,6 +10,7 @@ const WesternHeader = () =>{
                 <Link to="/">
                     <img src="./logo5.png" alt="logo" width="100" height="100"/>
                 </Link>
+                <hr/>
                <h1>Western Wears</h1>
             </div>
             <div>
@@ -19,7 +20,7 @@ const WesternHeader = () =>{
     )
 }
 const  linkStyle ={
-    color: '#fff'
+    color: '#000'
 }
 
 const WesternWear = ()=>{
@@ -34,7 +35,6 @@ const WesternWear = ()=>{
                                     <div className="gallery-image-2" key={index}>
                                         <img src={item.url} alt={item.alt} />
                                     </div>
-                                        <p className="text-center mt-2 mb-4">{item.paragraph}</p>
                                 </div>
                             </li>
                         </ul>

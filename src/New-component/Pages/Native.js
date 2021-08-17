@@ -11,7 +11,7 @@ const NativeHeader = () =>{
                 <Link to="/">
                     <img src="./logo5.png" alt="logo" width="100" height="100"/>
                 </Link>
-        
+            <hr/>
                <h1>Native Wears</h1>
             </div>
             <div>

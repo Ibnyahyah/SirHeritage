@@ -17,7 +17,7 @@ class Developer extends React.Component{
                                 <p>I build any type of webSite or web application at affordable rate with the fastest language.</p>
                         </div>
                         <div className="btn primary-btn text-white">
-                                    <a href="https://.wa.me/+2348129418741" className="btn btn-primary">Hire Me </a> | <Link to="/" className="btn btn-primary" style={{color: '#fff'}}>Back to home</Link>
+                                    <a href="https://wa.me/+2348129418741" className="btn btn-primary">Hire Me </a> | <Link to="/" className="btn btn-primary" style={{color: '#fff'}}>Back to home</Link>
                                 </div>
                     </div>
                 </div>

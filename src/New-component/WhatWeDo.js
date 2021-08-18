@@ -6,7 +6,7 @@ const WhoWeAre = () =>{
         <div className="col-sm-6 mt-lg-5 who-we-are">
             <h1>Who we are ?</h1>
             <div className="WhoWeAre-content">
-                <p>We are SirHeritage is a modren fashion institude.
+                <p>SirHeritage is a modren fashion institude.
                     We are hear to make wears simple annd affordable for everyOne
                 </p>
             </div>
@@ -21,11 +21,11 @@ const WhatWeDo =()=>{
             <div>
                 <dl>
                     <dt>Tutoring</dt>
-                    <dd>Teaching student who are interestedin learning how to build a good dress.</dd>
+                    <dd>Teaching student who are interested in learning how to build and make a good dress.</dd>
                     <dt>Building</dt>
                     <dd>We expext in making nice looking clothes for both Male and female, Kids and Adults .</dd>
                     <dt>Ready Made Wear</dt>
-                    <dd>We have Already made clothes at affordable rate.</dd>
+                    <dd>We have Already made clothes at affordable Rate.</dd>
                 </dl>
             </div>
         </div>

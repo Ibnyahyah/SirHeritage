@@ -1,7 +1,7 @@
 export const Images = [
     {
     title: 'gallery',
-    url: '/images/preview/Shirt.jpg',
+    url: '/images/preview/GrayNate.jpg',
     alt: 'Shirt'
     },
     {
@@ -11,7 +11,7 @@ export const Images = [
     },
     {
     title: 'gallery',
-    url: '/images/preview/Native.jpg',
+    url: '/images/gallery/Cap2.jpg',
     alt: 'Ibile soro'
     },
     {
@@ -47,39 +47,85 @@ export const PreViewImage = [
         },
         {
         title: 'gallery',
-        url: '/images/preview/Natify.jpg', 
+        url: '/images/preview/nativeShop.jpg', 
         paragraph : "So'ro",
         alt: "Simple so'ro "
         },
         {
         title: 'gallery',
-        url: '/images/preview/Native8.jpg',
+        url: '/images/gallery/Cap-6.png',
         paragraph : "Native's Cap",
         alt: 'Caps'
         }
 
 ]
+export const ShopWear =[
+    {
+        url: '/images/shop/modern-soro.jpg',
+        alt: 'modern soro Wear',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#11,500.00k'
+    },
+    {
+        url: '/images/shop/modern-soro-3.jpg',
+        alt: 'New native style',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#12,500.00k'
+    },
+    {
+        url: '/images/shop/jalabia-3.jpg',
+        alt: 'black jalab',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#6,000.00k'
+    },
+    {
+        url: '/images/shop/nativeShop.jpg',
+        alt: 'Native shirt and Trouser',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#8,500.00k'
+    },
+    {
+        url: '/images/shop/Native4.jpg',
+        alt: 'Nice looking cloth with cap',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#25,000.00k'
+    },
+    {
+        url: '/images/shop/modern-soro-8.jpg',
+        alt: 'Black touched native with hat',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#15,000.00k'
+    },
+    {
+        url: '/images/shop/MensSuit.jpg',
+        alt: 'Mens Suit',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#45,000.00k'
+    },
+    {
+        url: '/images/shop/AgbadaShop.jpg',
+        alt: 'Modern native',
+        buy : 'Order Now',
+        wUrl: 'https://www.wa.me/+2348168867603',
+        price: '#30,000.00k'
+    }
+]
 
 export const  TrendingWear =[
-    {
-        url: '/images/gallery/Native9.jpg',
-        alt: 'Short Kaftan'
-        },
         {
         url: '/images/gallery/Native2.jpg',
         alt: 'Mixture wear'
         },
         {
-        url: '/images/gallery/simple-jalabia-2.jpg',
-        alt: 'White Jalab'
-        },
-        {
         url: '/images/gallery/AgbadaShop2.jpg',
         alt: 'Agbada'
-        },
-        {
-        url:'/images/gallery/modern-soro-2.jpg',
-        alt: 'Couple wear'
         },
         {
         url: '/images/gallery/ShirtShop2.jpg',
@@ -88,10 +134,6 @@ export const  TrendingWear =[
     {
         url: '/images/gallery/JalabShop.jpg',
         alt: 'Kid"s Wear'
-        },
-        {
-        url: '/images/gallery/MensShirt.jpg',
-        alt: 'Uni-Sex Jalab'
         }
 ]
 
@@ -105,7 +147,7 @@ export const NativesWear = [
         alt: 'Native top and trouser'
         },
         {
-        url: '/images/gallery/Native7.jpg',
+        url: '/images/gallery/NativeShop4.jpg',
         alt: 'Short Agbada'
         },
     {
@@ -113,19 +155,19 @@ export const NativesWear = [
         alt: 'Esiki Wear'
         },
         {
-        url: '/images/gallery/NativeShop2.jpg',
+        url: '/images/gallery/NativeShop3.jpg',
         alt: 'Native top and trouser'
         },
         {
-        url: '/images/gallery/mordern-soro-9.jpg',
-        alt: 'Native top and trouser '
-        },
-        {
-        url: '/images/preview/Cap.jpg',
+        url: '/images/gallery/cap-6.png',
         alt: 'Cap'
         },
         {
-        url: '/images/gallery/nativeShop.jpg',
+        url: '/images/gallery/Cap4.jpg',
+        alt: 'Cap'
+        },
+        {
+        url: '/images/gallery/NativeShop2.jpg',
         alt: 'Nativew top and trouser'
         },
 ]
@@ -149,61 +191,3 @@ export const WesternsWear =[
         }
 ]
 
-export const ShopWear =[
-    {
-        url: '/images/shop/modern-soro.jpg',
-        alt: 'modern soro Wear',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/modern-soro-3.jpg',
-        alt: 'New native style',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/jalabia-3.jpg',
-        alt: 'black jalab',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/nativeShop.jpg',
-        alt: 'Fitted shirt and Trouser',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/Native4.jpg',
-        alt: 'Nice looking cloth with cap',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/modern-soro-8.jpg',
-        alt: 'Black touched native with hat',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#10000'
-    },
-    {
-        url: '/images/shop/MensSuit.jpg',
-        alt: 'Mens Suit',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#30000'
-    },
-    {
-        url: '/images/shop/AgbadaShop.jpg',
-        alt: 'Modern native',
-        buy : 'Buy Now',
-        wUrl: '#',
-        price: '#30000'
-    }
-]

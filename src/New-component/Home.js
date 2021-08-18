@@ -18,9 +18,9 @@ const HomeText = () =>{
 const HomeSection = () => {
     return(
         <div className="container-fluid pb-5 main-section-home">
+             <NavBar/>
             <div className="row main-section-row">
                 <HomeText/>
-                <NavBar/>
             </div>
         </div>
     )

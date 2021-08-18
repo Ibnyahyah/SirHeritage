@@ -26,27 +26,23 @@ const  linkStyle ={
 const AboutContent=()=>{
     return(
         <div className="row about">
-            <div className="profile">
-                <img src="./images/Shop/WhiteShirt.jpg" alt="SirHeritage CEO"/>
+            <div className="profile my-4">
+                <img src="./profile.png" alt="SirHeritage CEO"/>
             </div>
             <div className="about-content">
                 <p>
                 Our favorite part of being a professional
-                 photographer is the passion to make a difference
+                 tailor is the passion to make a difference
                  and to make a significant change in creating a story
-                 through what we captured. our aim is to create a virtual
-                 experience for businesses across the globe. Focusing on
-                 creating values through media technology. What makes us different
+                 through what we sew. our aim is to create a sensible
+                 wears for everyone across the globe. What makes us different
                  is our ability to understand what our customers need and to deliver
-                 quality services that will create a long-lasting relationship. </p>
-                 <p>We do not restrict our services to photographing
-                     weddings or events in the city, we have wider
-                      experience in adventures, travel photography
-                     and product shots. we love to create a unique
-                     memory that can express love and natural ideas.
+                 quality services that will create a long-lasting relationship.</p>
+                 <p>We love to create a unique style that will create
+                     memory that can express love.
                      We are devoted to utilizing developing advancements
                      to give the most elevated amount of value in terms
-                     of Photography, Cinematography, and Training
+                     of sewing and Training.
                </p>
             </div>
         </div>

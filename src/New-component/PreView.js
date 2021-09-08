@@ -1,6 +1,8 @@
 import React from 'react';
+import WYSk from './WhatYouShouldKnow';
 import { Images } from './Image';
-import { PreViewImage } from './Image';
+import { Faqs } from './WhatYouShouldKnow'
+// import { PreViewImage } from './Image';
 
 const PreViewRoll1 =()=>{
     return(
@@ -27,7 +29,7 @@ const PreViewRoll1 =()=>{
 const PreViewRoll2 =()=>{
     return(
         <div className="row py-3 d-flex justify-content-between">
-            {PreViewImage.map((item, index) => {
+            {/* {PreViewImage.map((item, index) => {
                 return(
                     <div className="col-sm-3" >
                         <ul>
@@ -42,7 +44,7 @@ const PreViewRoll2 =()=>{
                         </ul>
                     </div>
                 )
-            } )}
+            } )} */}
          </div>      
     )
 }
@@ -50,8 +52,10 @@ const PreViewRoll2 =()=>{
 const PreView = () =>{
     return(
             <div className="service-section"  id="gallery">
+                <WYSk/>
                 <PreViewRoll1/>
                 <PreViewRoll2/>
+                <Faqs/>
             </div>
     )
 }

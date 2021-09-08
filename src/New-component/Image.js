@@ -64,56 +64,56 @@ export const ShopWear =[
         url: '/images/shop/modern-soro.jpg',
         alt: 'modern soro Wear',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#11,500.00k'
     },
     {
         url: '/images/shop/modern-soro-3.jpg',
         alt: 'New native style',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#12,500.00k'
     },
     {
         url: '/images/shop/jalabia-3.jpg',
         alt: 'black jalab',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#6,000.00k'
     },
     {
         url: '/images/shop/nativeShop.jpg',
         alt: 'Native shirt and Trouser',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#8,500.00k'
     },
     {
         url: '/images/shop/Native4.jpg',
         alt: 'Nice looking cloth with cap',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#25,000.00k'
     },
     {
         url: '/images/shop/modern-soro-8.jpg',
         alt: 'Black touched native with hat',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#15,000.00k'
     },
     {
         url: '/images/shop/MensSuit.jpg',
         alt: 'Mens Suit',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#45,000.00k'
     },
     {
         url: '/images/shop/AgbadaShop.jpg',
         alt: 'Modern native',
         buy : 'Order Now',
-        wUrl: 'https://www.wa.me/+2348168867603',
+        wUrl: 'https://wa.me/+2348168867603',
         price: '#30,000.00k'
     }
 ]

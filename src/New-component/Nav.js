@@ -34,7 +34,9 @@ handleClick = () => {
                                 </li>
                             )
                         })}
-                        
+                        <button className="SignUp-btn">
+                            <Link className="btn-link" to="/">Sign In</Link>
+                        </button>
                     </ul>
                 </nav>
             

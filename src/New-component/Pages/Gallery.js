@@ -1,48 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import NavBar from '../Nav';
 import { TrendingWear } from '../Image';
 
 
 const GalleryHeader = () =>{
     return(
-        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
-            <div>
-                <Link to="/">
-                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
-                </Link>
-                <hr/>
+        <div style={{color: '#000',
+         padding: '20px', textAlign:'center',
+          backgroundColor: '#fff', boxShadow:'1px 4px 4px rgba(0,0,0,0.09)'}}>
                <h1>Gallery</h1>
          </div>
-         <div>
-                <Link to="/" style={linkStyle}>Home </Link>|<Link to="native-wear" style={linkStyle}> Natives </Link>
-                |<Link to="western-wear" style={linkStyle}> English </Link>|<Link to="https://www.wa.me/" style={linkStyle}> ChatUs</Link>
-            </div>
-       </div>
     )
-}
-const  linkStyle ={
-    color: '#000'
 }
 
 const GalleryImg =()=>{
     return(
-        <div className="row py-3 d-flex justify-content-between">
+        <div className="gallery-row py-3">
+            {/* <h1>New Wears</h1> */}
             {TrendingWear.map((item, index) => {
-                return(
-                    <div className="col-sm-3">
-                        <ul>
+                    return(
+                    <div className="col-sm-2">
+                        <ul id="autoWidth" className="cs-hidden">
                             <li className={item.Cname}>
-                                <div className="gallery-box-2">
-                                    <div className="gallery-image-2" key={index}>
+                                <div className="gallery-box">
+                                    <div className="gallery-image" key={index}>
                                         <img src={item.url} alt={item.alt} />
                                     </div>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>   
                     </div>
-                )
-            } )}
+                    )
+                })}
          </div>      
     )
 }
@@ -54,8 +43,9 @@ const GalleryImg =()=>{
 const Gallery =()=>{
     return(
         <React.Fragment>
+                <NavBar/>
                 <GalleryHeader/>
-            <div className="new-arrival">
+            <div className="new-wears">
                 <GalleryImg/>
             </div>
         </React.Fragment>

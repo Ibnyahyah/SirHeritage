@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function WYSK(){
     return(
         <div className="WYSK-container">
@@ -8,7 +10,8 @@ function WYSK(){
                         both men and women. Our aim and ambition is
                         to make modern wear available and accessible
                         for everyone in both local and international level</p>
-                        <p>Our wwears are affordable and can be received any where in Nigeria.</p>
+                        <p>Our wears are affordable and can be received any where in Nigeria.</p>
+                        <Link to="/">Learn more</Link>
                 </div>
             </div>
         </div>
@@ -48,6 +51,7 @@ export function Faqs(){
                      That why we allow you to pick your
                      style either from our website or your mobile fone.</p>
                 </div>
+                <Link to="/">see more</Link>
             </div>
         </div>
     )

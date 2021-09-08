@@ -1,12 +1,12 @@
 import React from 'react';
+import { SeacrhInput } from './InputSection';
 import WYSk from './WhatYouShouldKnow';
 import { Images } from './Image';
-import { Faqs } from './WhatYouShouldKnow'
-// import { PreViewImage } from './Image';
+import { Faqs } from './WhatYouShouldKnow';
 
 const PreViewRoll1 =()=>{
     return(
-            <div className=" gallery-row py-3">
+            <div className="gallery-row py-3">
                 {Images.map((item, index) => {
                     return(
                     <div className="col-sm-2">
@@ -52,6 +52,7 @@ const PreViewRoll2 =()=>{
 const PreView = () =>{
     return(
             <div className="service-section"  id="gallery">
+                <SeacrhInput/>
                 <WYSk/>
                 <PreViewRoll1/>
                 <PreViewRoll2/>

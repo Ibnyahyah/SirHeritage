@@ -7,7 +7,6 @@ import Gallery from './New-component/Pages/Gallery';
 import Shop from './New-component/Pages/shop';
 import Native from './New-component/Pages/Native';
 import Western from './New-component/Pages/Western';
-import KnowUs from './New-component/WhatWeDo';
 import About from './New-component/Pages/About';
 import Developer from './New-component/Pages/Developer';
 import Footer from './New-component/Footer';
@@ -16,12 +15,11 @@ import Footer from './New-component/Footer';
 function App() {
   return (
     <Router>
-        <main>
+        <main className="body">
           <Route exact path="/" render={props =>(
               <React.Fragment>
                  <HomeSection/>
                   <PreView/>
-                  <KnowUs/>
                   <Footer/>
               </React.Fragment>
           )} />

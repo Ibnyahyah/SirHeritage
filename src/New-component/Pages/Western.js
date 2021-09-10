@@ -1,55 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { WesternsWear } from '../Image';
 
 const WesternHeader = () =>{
     return(
-        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
-            <div>
-                <Link to="/">
-                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
-                </Link>
-                <hr/>
-               <h1>Western Wears</h1>
-            </div>
-            <div>
-                <Link to="/" style={linkStyle}>Home </Link>||<Link to="/gallery" style={linkStyle}> Back</Link>
-            </div>
+        <div>
+            <h1>Western Wears</h1>
        </div>
     )
-}
-const  linkStyle ={
-    color: '#000'
 }
 
 const WesternWear = ()=>{
     return(
-        <div className="row py-3 d-flex justify-content-between">
+        <div className="gallery-row py-3">
             {WesternsWear.map((item, index) => {
                 return(
-                    <div className="col-sm-3">
-                        <ul>
+                    <div className="col-sm-2">
+                        <ul id="autoWidth" className="cs-hidden">
                             <li className={item.Cname}>
-                                <div className="gallery-box-2">
-                                    <div className="gallery-image-2" key={index}>
+                                <div className="gallery-box">
+                                    <div className="gallery-image" key={index}>
                                         <img src={item.url} alt={item.alt} />
                                     </div>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>   
                     </div>
                 )
-            } )}
-         </div>      
+            })}
+     </div>  
     )
 }
 export default class Western extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <WesternHeader/>
                 <div className="new-arrival">
+                    <WesternHeader/>
                     <WesternWear/>
                 </div>
             </React.Fragment>

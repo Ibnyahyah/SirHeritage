@@ -5,11 +5,12 @@ import HomeSection from './New-component/Home';
 import PreView from './New-component/PreView';
 import Gallery from './New-component/Pages/Gallery';
 import Shop from './New-component/Pages/shop';
-import Native from './New-component/Pages/Native';
-import Western from './New-component/Pages/Western';
 import About from './New-component/Pages/About';
 import Developer from './New-component/Pages/Developer';
 import Footer from './New-component/Footer';
+import SignIn from './New-component/SignAndProfile/SignIn';
+import SignUp from './New-component/SignAndProfile/SignUp';
+import { ForgetPassword } from './New-component/SignAndProfile/ForgetPassword';
 
 
 function App() {
@@ -38,18 +39,6 @@ function App() {
             </React.Fragment>
           )}
          />
-           <Route path="/native-wear"  render={props =>(
-           <React.Fragment>
-             <Native/>
-             <Footer/>
-           </React.Fragment>
-         )}/>
-         <Route path="/western-wear"  render={props =>(
-           <React.Fragment>
-             <Western/>
-             <Footer/>
-           </React.Fragment>
-         )}/>
          <Route path="/about"  render={props =>(
            <React.Fragment>
              <About/>
@@ -57,6 +46,9 @@ function App() {
            </React.Fragment>
          )}/>
         <Route path="/developer" component={Developer}/>
+        <Route path="/sign-in" component={SignIn}/>
+        <Route path="/sign-up" component={SignUp}/>
+        <Route path="/forgetpassword" component={ForgetPassword}/>
           
         </main>
     </Router>

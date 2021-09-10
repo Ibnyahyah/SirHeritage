@@ -35,7 +35,7 @@ handleClick = () => {
                             )
                         })}
                         <button className="SignUp-btn">
-                            <Link className="btn-link" to="/">Sign In</Link>
+                            <Link className="btn-link" to="/sign-in">Sign In</Link>
                         </button>
                     </ul>
                 </nav>

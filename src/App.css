@@ -11,7 +11,6 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-
 }
 a{
   text-decoration: none;
@@ -79,7 +78,7 @@ li{
   padding: 0 10rem;
 }
 .row h6{
-  margin-top: 250px;
+  margin-top: 200px;
   color: black;
   font-size: 35px;
   font-weight: 700;
@@ -96,10 +95,6 @@ li{
 }
 
 /* WHATYOUSHOULDKNOW */
-/* .WYSK-container{
-  width: 90%;
-  margin: auto;
-} */
 .what-you-should-know, .faqs-container{
   background-color: #fff;
   width: 50%;
@@ -156,10 +151,15 @@ form{
 }
 
 /* Gallery */
-.service-section{
-  padding: 20px;
+.galleryHeader, .shop h1{
+  width:50%;
   margin: auto;
-  /* background-color: white; */
+  margin-top: -25px;
+  padding:0.5rem;
+  background-color:#fff;
+  color:#000;
+  text-align:center;
+  box-shadow: 1px 4px 4px rgba(0,0,0,0.09);
 }
 .gallery-row {
   display:flex;
@@ -237,7 +237,11 @@ form{
 .new-wears{
   margin-top:20px;
   background-color: #fff;
-  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+}
+.new-wears h1{
+  font-size: 20px;
+  margin: 0px 0px 0px 40px;
 }
 /* Faqs */
 .faqs-container h2{
@@ -434,12 +438,20 @@ form{
   .container{
     width: 90%;
   }
+  .row h6{
+    margin-top: 170px;
+  }
   .main-section-home .main-section-row{
     padding: 0 0.5rem;
   }
   .main-section-home h1, .main-section-home p, .main-section-home h6{
     color: rgb(255, 254, 254);
     font-weight: 800;
+  }
+  /* gallery */
+  .galleryHeader, .shop h1{
+    width:90%;
+    margin-top:15px;
   }
   .gallery-box-2{
     flex-direction: column;

@@ -1,13 +1,14 @@
 import React from 'react';
 import NavBar from '../Nav';
+import Native from './Native';
+import Western from './Western';
+import { Caps } from './Caps';
 import { TrendingWear } from '../Image';
 
 
 const GalleryHeader = () =>{
     return(
-        <div style={{color: '#000',
-         padding: '20px', textAlign:'center',
-          backgroundColor: '#fff', boxShadow:'1px 4px 4px rgba(0,0,0,0.09)'}}>
+        <div className="galleryHeader">
                <h1>Gallery</h1>
          </div>
     )
@@ -16,7 +17,6 @@ const GalleryHeader = () =>{
 const GalleryImg =()=>{
     return(
         <div className="gallery-row py-3">
-            {/* <h1>New Wears</h1> */}
             {TrendingWear.map((item, index) => {
                     return(
                     <div className="col-sm-2">
@@ -46,7 +46,14 @@ const Gallery =()=>{
                 <NavBar/>
                 <GalleryHeader/>
             <div className="new-wears">
+                <h1>New Wears</h1>
                 <GalleryImg/>
+                {/* Natives */}
+                <Native/>
+                {/* Western */}
+                <Western/>
+                {/* Caps */}
+                <Caps/>
             </div>
         </React.Fragment>
        

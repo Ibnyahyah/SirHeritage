@@ -1,26 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from '../Nav';
 import { ShopWear } from '../Image';
 
 const ShopHeader = () =>{
     return(
-        <div style={{fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-        backgroundColor: '#fff', color: '#000', padding: '20px', textAlign:'center'}}>
-            <div>
-                <Link to="/">
-                    <img src="./logo5.png" alt="logo" width="100" height="100"/>
-                </Link>
-                <hr/>
-                    <h1>Shop</h1>
-            </div>
-         <div>
-                <Link to="/" style={linkStyle}>Home </Link>||<Link to="/" style={linkStyle}> Help</Link>
-            </div>
+        <div>
+            <h1>Shop</h1>
        </div>
     )
-}
-const  linkStyle ={
-    color: '#000'
 }
 
 const ShopImage =()=>{
@@ -51,8 +38,9 @@ class Shop extends React.Component{
     render(){
         return(
             <React.Fragment>
-            <ShopHeader/>
-            <div className="new-arrival">
+                <Navbar/>
+            <div className="shop">
+                <ShopHeader/>
                 <ShopImage/>
             </div>
         </React.Fragment>

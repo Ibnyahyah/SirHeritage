@@ -25,37 +25,12 @@ const PreViewRoll1 =()=>{
             </div>    
     )
 }
-
-const PreViewRoll2 =()=>{
-    return(
-        <div className="row py-3 d-flex justify-content-between">
-            {/* {PreViewImage.map((item, index) => {
-                return(
-                    <div className="col-sm-3" >
-                        <ul>
-                            <li className={item.Cname} style={{marign:'auto'}}>
-                                <div className="gallery-box-2">
-                                    <div className="gallery-image-2" key={index}>
-                                        <img src={item.url} alt={item.alt} />
-                                    </div>
-                                        <p className="text-center mt-2 mb-4">{item.paragraph}</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                )
-            } )} */}
-         </div>      
-    )
-}
-
 const PreView = () =>{
     return(
             <div className="service-section"  id="gallery">
                 <SeacrhInput/>
                 <WYSk/>
                 <PreViewRoll1/>
-                <PreViewRoll2/>
                 <Faqs/>
             </div>
     )

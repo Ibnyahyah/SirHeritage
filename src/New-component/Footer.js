@@ -79,7 +79,7 @@ const CopyWrite=()=>{
     return(
 
         <div className="copywrite mt-2">
-            <p>Copyright &copy; 2021 Ibn Reserve</p>
+            <p>Copyright &copy; 2021 Reserve | <Link to="#">Developed : Bn ibn</Link></p>
         </div>
     )
 }
@@ -94,7 +94,6 @@ class Footer extends React.Component{
                     <Message/>
                     <Contact/>
                     <UsefulLinks/>
-                    
                 </div>
                 <CopyWrite/>
             </div>

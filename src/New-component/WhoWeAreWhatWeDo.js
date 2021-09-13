@@ -12,7 +12,7 @@ function WhoWeAre(){
                  <p>We also train young fashionist to be the next fashion <b>boss</b> of their era.
                     our students have fully assist to both practical and theory.
                     Our theory class start from 9am to 12pm, while practical start from 1pm to 6pm.
-                    Our student Only have to come from monday --- friday. <Link to="#contact">Contact Us for more info</Link>
+                    Our student Only have to come from monday --- friday. <a href="#contact">Contact Us for more info.</a>
                  </p>
             </div>
         </div>

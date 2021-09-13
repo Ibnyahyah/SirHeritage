@@ -32,33 +32,6 @@ export const Images = [
     
 ]
 
-export const PreViewImage = [
-    {
-        title: 'gallery',
-        url: '/images/preview/PLain-suit.jpg',
-        paragraph : "White Suit",
-        alt: 'Plain white Suit'
-        },
-        {
-        title: 'gallery',
-        url: '/images/preview/AgbadaShop.jpg',
-        paragraph : 'Agbada',
-        alt: 'Agbada with attractive work'
-        },
-        {
-        title: 'gallery',
-        url: '/images/preview/nativeShop.jpg', 
-        paragraph : "So'ro",
-        alt: "Simple so'ro "
-        },
-        {
-        title: 'gallery',
-        url: '/images/gallery/Cap-6.png',
-        paragraph : "Native's Cap",
-        alt: 'Caps'
-        }
-
-]
 export const ShopWear =[
     {
         url: '/images/shop/modern-soro.jpg',
@@ -121,27 +94,27 @@ export const ShopWear =[
 export const  TrendingWear =[
         {
         url: '/images/gallery/p1wa.jpg',
-        alt: 'Mixture wear'
+        alt: 'Trending wear 1'
         },
         {
         url: '/images/gallery/M3.jpg',
-        alt: 'Agbada'
+        alt: 'Trending wear 2'
         },
         {
         url: '/images/gallery/P1.jpg',
-        alt: 'Short Agbada'
+        alt: 'Trending wear 3'
         },
         {
         url: '/images/gallery/P3k.jpg',
-        alt: 'Kid"s Wear'
+        alt: 'Trending wear 4'
         },
         {
         url: '/images/gallery/SuitShop.jpg',
-        alt: 'Leather Suit'
+        alt: 'Trending wear 5'
         },
         {
         url: '/images/gallery/M1.jpg',
-        alt: 'Esiki Wear'
+        alt: 'Trending wear 6'
         },
 ]
 
@@ -152,11 +125,11 @@ export const NativesWear = [
         },
         {
         url: '/images/gallery/P3k.jpg',
-        alt: 'Esiki Wear'
+        alt: 'Kids Styles'
         },
         {
         url: '/images/gallery/P3ks.jpg',
-        alt: 'Native top and trouser'
+        alt: 'Kids wear with Agbada and Fila'
         },
         {
         url: '/images/gallery/AgbadaShop3.jpg',
@@ -164,31 +137,31 @@ export const NativesWear = [
         },
         {
         url: '/images/gallery/M2.jpg',
-        alt: 'Short Agbada'
+        alt: 'Modern esiki front face'
         },
         {
         url: '/images/gallery/M2s.png',
-        alt: 'Short Agbada'
+        alt: 'Modern esiki Back face'
         },
         {
         url: '/images/gallery/M1.jpg',
-        alt: 'Native top and trouser'
+        alt: 'White and Black touch top inform of esiki'
         },
         {
         url: '/images/gallery/P1.jpg',
-        alt: 'Esiki Wear'
+        alt: 'Native top and trouser'
         },
         {
         url: '/images/gallery/P1wa.jpg',
-        alt: 'Native top and trouser'
+        alt: 'Agbada Wear with cap'
         },
         {
         url: '/images/gallery/P1was.jpg',
-        alt: 'Esiki Wear'
+        alt: 'second face without the agbada'
         },
         {
         url: '/images/gallery/P2.jpg',
-        alt: 'Native top and trouser'
+        alt: 'Swag alfa natives'
         },
         {
         url: '/images/preview/modern-eshiki.jpg',
@@ -196,50 +169,50 @@ export const NativesWear = [
         },
         {
         url: '/images/gallery/Agb2.jpg',
-        alt: 'Native top and trouser'
+        alt: 'Agbada wear'
         },
         {
         url: '/images/gallery/NativeShop4.jpg',
-        alt: 'Short Agbada'
+        alt: 'Material mixture'
         },
         {
         url: '/images/gallery/M3.jpg',
-        alt: 'Native top and trouser'
+        alt: 'esiki wear front face'
         },
         {
         url: '/images/gallery/M3s.jpg',
-        alt: 'Native top and trouser'
+        alt: 'esiki wear side view'
         },
         {
         url: '/images/gallery/NativeShop2.jpg',
-        alt: 'Nativew top and trouser'
+        alt: 'Nigga wears'
         },
 ]
 
 export const WesternsWear =[
     {
         url: '/images/gallery/Bluebat.jpeg',
-        alt: 'Kid"s Wear'
+        alt: 'Wearable wear'
         },
         {
         url: '/images/gallery/SuitShop.jpg',
-        alt: 'Leather Suit'
+        alt: 'Fitted Suit'
         },
         {
-            url: '/images/gallery/Jal1.jpg',
-            alt: 'Uni-Sex Jalab'
+        url: '/images/gallery/Jal1.jpg',
+        alt: 'Jalab'
         },
         {
         url: '/images/gallery/WhiteShirt.jpg',
-        alt: 'Uni-Sex Jalab'
+        alt: 'White Shirt'
         },
         {
         url: '/images/gallery/simple-jalabia-2.jpg',
-        alt: 'Simple suit'
+        alt: 'Simple jalab'
         },
         {
         url: '/images/gallery/ShirtShop2.jpg',
-        alt: 'Leather Suit'
+        alt: 'Green shirt'
         }
 ]
 
@@ -247,10 +220,14 @@ export const WesternsWear =[
 export const Cap =[
     {
         url: '/images/gallery/cap-6.png',
-        alt: 'Cap'
+        alt: 'Gobi Cap'
         },
         {
         url: '/images/gallery/Cap4.jpg',
-        alt: 'Cap'
+        alt: 'Fila abeti aja'
         },
+        {
+        url: '/images/gallery/Cap2.jpg',
+        alt: 'Caps'
+        }
 ]

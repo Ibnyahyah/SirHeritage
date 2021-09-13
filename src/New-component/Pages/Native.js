@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { NativesWear } from '../Image';
 
 
@@ -11,23 +11,36 @@ const NativeHeader = () =>{
 }
 
 const NativeWear = ()=>{
+    const [modal, setModal] = useState(false);
+    const [tempImg, setTempImg] = useState('');
+
+    const getImg = (url)=> {
+        setModal(true);
+        setTempImg(url);
+    }
     return(
-        <div className="gallery-row py-3">
-            {NativesWear.map((item, index) => {
-                return(
-                <div className="col-sm-2">
-                    <ul id="autoWidth" className="cs-hidden">
-                        <li className={item.Cname}>
-                            <div className="gallery-box">
-                                <div className="gallery-image" key={index}>
-                                    <img src={item.url} alt={item.alt} />
-                                </div>
+        <div>
+            <div className={modal? "modal open" : "modal"} onClick={()=> setModal(false)}>
+                <img src={tempImg} alt="Temporary pop-up"/>
+                <h1 onClick={()=>setModal(false)}>X</h1>
+            </div>
+            <div className="gallery-row py-3">
+                {NativesWear.map((item, index) => {
+                    return(
+                            <div className="col-sm-2">
+                                <ul id="autoWidth" className="cs-hidden">
+                                    <li className={item.Cname}>
+                                        <div className="gallery-box">
+                                            <div className="gallery-image" key={index} onClick={()=> getImg(item.url)}>
+                                                <img src={item.url} alt={item.alt} />
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>   
                             </div>
-                        </li>
-                    </ul>   
-                </div>
-                )
-            })}
+                        )
+                })}
+            </div>
         </div>       
     )
 }

@@ -95,15 +95,21 @@ li{
 }
 
 /* WHATYOUSHOULDKNOW */
-.what-you-should-know, .faqs-container{
+.what-you-should-know, .faqs-container, .WhoWeAre{
   background-color: #fff;
   width: 50%;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   border-radius: 6px;
   box-shadow: 1px 4px 6px rgba(0,0,0,0.09);
   padding: 1rem;
+}
+.WhoWeAre h1{
+  text-align:center;
+  font-size:50px;
+  font-weight: 700;
+  margin:20px;
 }
 .what-you-should-know h1, .faqs-container h1{
   text-align:center;
@@ -114,7 +120,7 @@ li{
 .WYK-content{
   width: 95%;
   margin: auto;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
 }
 /* Forms */
@@ -148,6 +154,55 @@ form{
   border-radius: 4px;
   border-bottom-right-radius: 30px;
   height: 4vh;
+}
+/* image */
+img{
+  cursor:pointer;
+}
+/* modal */
+.modal{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: rgba(0,0,0,0.9);
+  transition: opacity .4s ease, visibilty .4s ease, transform .6s ease-in-out;
+  visibility: hidden;
+  opacity:0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+  cursor:pointer;
+}
+.modal.open{
+  visibility: visible;
+  opacity:1;
+  transform: scale(1);
+}
+.modal img{
+  width:auto;
+  max-width: 100%;
+  height: auto;
+  max-height:100%;
+  display: block;
+  line-height:0;
+  box-sizing: border-box;
+  padding:20px 0 20px;
+  margin:0 auto;
+}
+.modal.open h1{
+  position: fixed;
+  top:10px;
+  right:10px;
+  font-size:2rem;
+  font-weight: 600;
+  padding:5px;
+  color:#fff;
+  cursor:pointer;
 }
 
 /* Gallery */
@@ -253,29 +308,6 @@ form{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* know us more */
-.KnowUs{
-  background-color: #fff;
-  color: #000;
-  border-top: 1px solid rgba(92, 115, 138, 0.2);
-  padding: 1rem 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.line{
-  height: 1vh;
-  width: 150px;
-  margin:auto;
-  border: none;
-  border-radius: 4px;
-  background-color: blue;
-}
-.KnowUs #header h1{
-  margin-top: 50px;
- text-align: center;
-}
-.WhoWeAre-content{
-  width: 80%;
-}
 
 /* About us */
 .about{
@@ -296,17 +328,6 @@ form{
   width: 80%;
   margin: auto;
 }
-/* developer */
-#developer{
-  width: 50%;
-  margin: auto;
-  margin-top: 200px;
-  background-color: black;
-  color: #fff;
-  padding: 1rem;
-  border-radius: 4px;
-}
-
 
 /* footer */
 
@@ -393,18 +414,18 @@ footer .copywrite{
     border: 1px solid #000;
     padding: 5px 8px;
   }
-  
   .new-arrival{
     width: 95%;
   }
   /* WYSK */
-  .what-you-should-know, .faqs-container{
+  .what-you-should-know, .faqs-container, .WhoWeAre{
     width: 98%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;
   }
-  .what-you-should-know h1, .faqs-container h1{
+  
+  .what-you-should-know h1, .faqs-container h1, .WhoWeAre h1{
     font-size:25px;
     font-weight: 700;
     margin:10px;
@@ -414,7 +435,7 @@ footer .copywrite{
   .WYK-content{
     width: 99%;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
   /*WYSK ENDS HERE  */
@@ -440,13 +461,19 @@ form{
   }
   .row h6{
     margin-top: 170px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .head-text{
+    font-size:50px;
+    font-weight: 700;
   }
   .main-section-home .main-section-row{
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
   }
   .main-section-home h1, .main-section-home p, .main-section-home h6{
     color: rgb(255, 254, 254);
-    font-weight: 800;
+    text-shadow: 1px 6px 6px #000;
   }
   /* gallery */
   .galleryHeader, .shop h1{
@@ -486,5 +513,18 @@ form{
   }
   footer{
     font-size: 12px;
+  }
+}
+
+/* ipad */
+@media screen and (max-width: 1024px) {
+  .gallery-box{
+    margin: 20px 1px;
+  }
+  .gallery-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }

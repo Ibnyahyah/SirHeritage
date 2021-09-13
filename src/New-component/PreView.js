@@ -1,4 +1,5 @@
 import React from 'react';
+import WhoWeAre from './WhoWeAreWhatWeDo';
 import { SeacrhInput } from './InputSection';
 import WYSk from './WhatYouShouldKnow';
 import { Images } from './Image';
@@ -29,6 +30,7 @@ const PreView = () =>{
     return(
             <div className="service-section"  id="gallery">
                 <SeacrhInput/>
+                <WhoWeAre/>
                 <WYSk/>
                 <PreViewRoll1/>
                 <Faqs/>

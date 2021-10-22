@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { NativesWear } from '../Image';
+import { NativesWear, NativesWear2 } from '../Image';
 
 
 const NativeHeader = () =>{
@@ -26,6 +26,23 @@ const NativeWear = ()=>{
             </div>
             <div className="gallery-row py-3">
                 {NativesWear.map((item, index) => {
+                    return(
+                            <div className="col-sm-2">
+                                <ul id="autoWidth" className="cs-hidden">
+                                    <li className={item.Cname}>
+                                        <div className="gallery-box">
+                                            <div className="gallery-image" key={index} onClick={()=> getImg(item.url)}>
+                                                <img src={item.url} alt={item.alt} />
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>   
+                            </div>
+                        )
+                })}
+            </div>
+            <div className="gallery-row py-3">
+                {NativesWear2.map((item, index) => {
                     return(
                             <div className="col-sm-2">
                                 <ul id="autoWidth" className="cs-hidden">

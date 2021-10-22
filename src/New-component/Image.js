@@ -86,14 +86,14 @@ export const ShopWear =[
         url: '/images/shop/AgbadaShop.jpg',
         alt: 'Modern native',
         buy : 'Order Now',
-        wUrl: 'https://wa.me/+2348168867603',
+        wUrl: `https://wa.me/+2348168867603?Text=Hi,%20i%20will%20Like%20to%20Buy%20This%20Agbada`,
         price: '#30,000.00k'
     }
 ]
 
 export const  TrendingWear =[
         {
-        url: '/images/gallery/p1wa.jpg',
+        url: '/images/gallery/P1was.jpg',
         alt: 'Trending wear 1'
         },
         {
@@ -119,74 +119,132 @@ export const  TrendingWear =[
 ]
 
 export const NativesWear = [
-        {
-        url: '/images/gallery/Agbwa1.jpg',
-        alt: 'Agbada Wear'
-        },
-        {
-        url: '/images/gallery/P3k.jpg',
-        alt: 'Kids Styles'
-        },
-        {
-        url: '/images/gallery/P3ks.jpg',
-        alt: 'Kids wear with Agbada and Fila'
-        },
-        {
-        url: '/images/gallery/AgbadaShop3.jpg',
-        alt: 'Agbada Wear'
-        },
-        {
-        url: '/images/gallery/M2.jpg',
-        alt: 'Modern esiki front face'
-        },
-        {
-        url: '/images/gallery/M2s.png',
-        alt: 'Modern esiki Back face'
-        },
-        {
-        url: '/images/gallery/M1.jpg',
-        alt: 'White and Black touch top inform of esiki'
-        },
-        {
-        url: '/images/gallery/P1.jpg',
-        alt: 'Native top and trouser'
-        },
-        {
-        url: '/images/gallery/P1wa.jpg',
-        alt: 'Agbada Wear with cap'
-        },
-        {
-        url: '/images/gallery/P1was.jpg',
-        alt: 'second face without the agbada'
-        },
-        {
-        url: '/images/gallery/P2.jpg',
-        alt: 'Swag alfa natives'
-        },
-        {
-        url: '/images/preview/modern-eshiki.jpg',
-        alt: 'Esiki Wear'
-        },
-        {
-        url: '/images/gallery/Agb2.jpg',
-        alt: 'Agbada wear'
-        },
-        {
-        url: '/images/gallery/NativeShop4.jpg',
-        alt: 'Material mixture'
-        },
-        {
-        url: '/images/gallery/M3.jpg',
-        alt: 'esiki wear front face'
-        },
-        {
-        url: '/images/gallery/M3s.jpg',
-        alt: 'esiki wear side view'
-        },
-        {
-        url: '/images/gallery/NativeShop2.jpg',
-        alt: 'Nigga wears'
-        },
+    {
+    url: '/images/gallery/Agbwa1.jpg',
+    alt: 'Agbada Wear'
+    },
+    {
+    url: '/images/gallery/P3k.jpg',
+    alt: 'Kids Styles'
+    },
+    {
+    url: '/images/gallery/P3ks.jpg',
+    alt: 'Kids wear with Agbada and Fila'
+    },
+    {
+    url: '/images/gallery/AgbadaShop3.jpg',
+    alt: 'Agbada Wear'
+    },
+    {
+    url: '/images/gallery/M2.jpg',
+    alt: 'Modern esiki front face'
+    },
+    {
+    url: '/images/gallery/M2s.png',
+    alt: 'Modern esiki Back face'
+    },
+    {
+    url: '/images/gallery/M1.jpg',
+    alt: 'White and Black touch top inform of esiki'
+    },
+    {
+    url: '/images/gallery/P1.jpg',
+    alt: 'Native top and trouser'
+    },
+    {
+    url: '/images/gallery/P1wa.jpg',
+    alt: 'Agbada Wear with cap'
+    },
+    {
+    url: '/images/gallery/P1was.jpg',
+    alt: 'second face without the agbada'
+    },
+    {
+    url: '/images/gallery/P2.jpg',
+    alt: 'Swag alfa natives'
+    },
+    {
+    url: '/images/preview/modern-eshiki.jpg',
+    alt: 'Esiki Wear'
+    },
+    {
+    url: '/images/gallery/Agb2.jpg',
+    alt: 'Agbada wear'
+    },
+    {
+    url: '/images/gallery/NativeShop4.jpg',
+    alt: 'Material mixture'
+    },
+    {
+    url: '/images/gallery/M3.jpg',
+    alt: 'esiki wear front face'
+    },
+    {
+    url: '/images/gallery/M3s.jpg',
+    alt: 'esiki wear side view'
+    },
+    {
+    url: '/images/gallery/NativeShop2.jpg',
+    alt: 'Nigga wears'
+    },
+    {
+    url: '/images/gallery/Agb1.jpg',
+    alt: 'Nigga wears'
+    },
+    {
+    url: '/images/gallery/morden-soro-9.jpg',
+    alt: 'Nigga wears'
+    },
+    {
+    url: '/images/gallery/NativeShop3.jpg',
+    alt: 'Nigga wears'
+    },
+]
+export const NativesWear2 = [
+    {
+        url: './images/gallery/New-wear.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear1.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear2.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear3.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear4.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear5.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear6.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear7.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear8.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear9.jpg',
+        alt:'natives'
+    },
+    {
+        url: './images/gallery/New-wear0.jpg',
+        alt:'natives'
+    },
 ]
 
 export const WesternsWear =[
@@ -219,15 +277,23 @@ export const WesternsWear =[
 
 export const Cap =[
     {
-        url: '/images/gallery/cap-6.png',
-        alt: 'Gobi Cap'
-        },
-        {
-        url: '/images/gallery/Cap4.jpg',
-        alt: 'Fila abeti aja'
-        },
-        {
-        url: '/images/gallery/Cap2.jpg',
-        alt: 'Caps'
-        }
+    url: '/images/gallery/Cap-6.png',
+    alt: 'Gobi Cap'
+    },
+    {
+    url: '/images/gallery/Cap4.jpg',
+    alt: 'Fila abeti aja'
+    },
+    {
+    url: '/images/gallery/Cap2.jpg',
+    alt: 'Caps'
+    },
+    {
+    url: '/images/gallery/New-cap.jpg',
+    alt: 'Caps'
+    },
+    {
+    url: '/images/gallery/New-cap1.jpg',
+    alt: 'Caps'
+    },
 ]
